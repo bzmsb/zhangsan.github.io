@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人简历</title>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        .resume-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        caption {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #2c3e50;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        .photo-cell {
+            text-align: center;
+        }
+        .photo {
+            width: 120px;
+            height: 160px;
+            object-fit: cover;
+            border: 1px solid #ddd;
+        }
+        .section-title {
+            background-color: #3498db;
+            color: white;
+            font-weight: bold;
+        }
+        .icon {
+            margin-right: 8px;
+            color: #e74c3c;
+        }
+        .self-evaluation {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <table border="1">
+            <caption>个人简历</caption>
+            
+            <!-- 基本信息 -->
+            <tr>
+                <td width="15%"><strong>姓名</strong></td>
+                <td width="15%">祝祥和</td>
+                <td width="10%"><strong>性别</strong></td>
+                <td width="10%">男</td>
+                <td width="10%"><strong>年龄</strong></td>
+                <td width="10%">18</td>
+                <td rowspan="3" class="photo-cell">
+                    <img src="666.jpg"/ alt="个人照片" class="photo">
+                </td>
+            </tr>
+            <tr>
+                <td><strong><span class="info-icon">🏠</span>籍贯</strong></td>
+                <td>山东菏泽</td>
+                <td><strong><span class="info-icon">📱</span>联系电话</strong></td>
+                <td>18865689727</td>
+                <td><strong><span class="info-icon">✉️</span>电子邮箱</strong></td>
+                <td>18865689727@139.com</td>
+            </tr>
+            <tr>
+                <td><strong><span class="info-icon">🎓</span>学历</strong></td>
+                <td>本科</td>
+                <td><strong><span class="info-icon">❤️</span>健康状况</strong></td>
+                <td>良好</td>
+                <td><strong><span class="info-icon">💍</span>婚姻状况</strong></td>
+                <td>未婚</td>
+            </tr>
+            <tr>
+                <td><strong><span class="info-icon">💼</span>求职意向</strong></td>
+                <td>Web前端开发工程师</td>
+                <td><strong><span class="info-icon">📚</span>专业</strong></td>
+                <td colspan="2">软件工程</td>
+                <td><strong><span class="info-icon">🏫</span>毕业院校</strong></td>
+                <td>鲁东大学</td>
+            </tr>
+            
+            <!-- 技能证书 -->
+            <tr>
+               <td><strong>技能证书</strong></td>
+				<td colspan="10">
+                    <ul>
+                        <li>全国计算机等级考试二级证书</li>
+                        <li>Web前端开发工程师认证</li>
+                        <li>熟练掌握HTML5, CSS3, JavaScript</li>
+                        <li>熟悉Vue.js, React等前端框架</li>
+                    </ul>
+                </td>
+            </tr>
+            
+            <!-- 个人特长与爱好 -->
+            <tr>
+                <td><strong>个人特长与爱好</strong></td>
+                <td colspan="10">
+                    <ul>
+                        <li>擅长团队协作，具有良好的沟通能力</li>
+                        <li>热爱编程，喜欢研究新技术</li>
+                        <li>爱好篮球、游泳等体育运动</li>
+                        <li>喜欢阅读科技类书籍和文章</li>
+                    </ul>
+                </td>
+            </tr>
+            
+            <!-- 项目经历 -->
+            <tr>
+                <td><strong>项目经历</strong></td>
+                <td colspan="10">
+                    <p><strong>项目一：初步制作个人简历</strong></p>
+                    <ul>
+                        <li>运用 < h>< p>< hr>< br>< $nbsp>。</li>
+                        <li>使用< div>进行初步的布局。</li>
+                        <li>使用< a>制作锚点实现页内跳转。</li>
+                    </ul>
+                    
+                    <p><strong>项目二：用表格制作个人简历</strong></p>
+                    <ul>
+                        <li>第2-4行小标题加图标</li>
+                        <li>表格有标题和边框</li>
+                        <li>远方云端部署的URL（部署到GitHub上也算云端）</li>
+                    </ul>
+                </td>
+            </tr>
+            
+            <!-- 自我评价 -->
+            <tr>
+                <td><strong>自我评价</strong></td>
+                <td colspan="10">
+                    <p>我是一名软件工程专业的大一新生，对Web前端开发充满热情。在校期间，我系统学习了前端开发的相关知识，并通过多个实践项目积累了丰富的经验。</p>
+                    
+                    <p>我具备扎实的HTML、CSS和JavaScript基础，熟悉主流前端框架如Vue.js和React。在项目开发中，我注重代码的可维护性和性能优化，能够编写高质量的代码。我善于学习和接受新技术，能够快速适应不同的开发环境。</p>
+                    
+                    <p>性格方面，我乐观开朗，具有良好的团队协作精神和沟通能力。在团队项目中，我能够积极承担责任，与团队成员有效配合，共同完成项目目标。同时，我也具备独立解决问题的能力，能够在压力下保持高效工作。</p>
+                    
+                    <p>我对前端开发领域充满热情，愿意不断学习和提升自己的技能。我相信凭借我的专业知识和积极进取的态度，能够为贵公司创造价值，同时也实现个人职业发展的目标。</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
